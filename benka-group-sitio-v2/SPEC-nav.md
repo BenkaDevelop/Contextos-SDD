@@ -89,3 +89,8 @@ Por decisión de Jhohan se mantiene el flujo actual: **abrir el PR publica en be
 
 1. ¿Confirmas la URL de LinkedIn de Social Venture?
 2. Careers: mientras no exista /careers, ¿sigue bajando a la sección del home? Recomendación: sí.
+
+## Ajuste aprobado (5 nov 2026) · en producción (PR BenkaDevelop/benka-group#224 → qa, release #225 → main)
+- **Pestaña glass azul Benká:** la opción en la que estás parado sube como pestaña y se une al panel de abajo en una sola pieza, con curvas cóncavas en la unión. El panel usa el mismo azul (rgba(30, 65, 255, 0.92)). Aplica a todos los desplegables.
+- **Orden del menú:** Holding · Nosotros · Trayectoria · Industrias · Capabilities · Careers · Reportes.
+
