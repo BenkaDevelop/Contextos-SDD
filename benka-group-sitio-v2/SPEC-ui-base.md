@@ -24,7 +24,7 @@ Fuera de alcance: adoptar estos componentes en páginas existentes (eso es R2 en
 ## Supuestos
 
 1. Los componentes viven en `src/components/sections/` (como en el prototipo) y los estilos en SCSS con los colores de `general-styles/_colors.module.scss`.
-2. `UnitLogo` necesita `src/data/sites.ts` (nombre, dominio y logo de cada unidad). Se sube solo con lo que el componente usa; los dominios siguen pendientes (backlog P-25), así que el enlace apunta por ahora a la ruta interna `/sites/:unidad` **oculta** o a la página actual de la unidad, según se decida.
+2. `UnitLogo` necesita `src/data/sites.ts` (nombre, dominio y logo de cada unidad). Se sube solo con lo que el componente usa; los dominios siguen pendientes (backlog P-25), así que el enlace apunta por ahora a la red social que ya usa el home de producción para cada unidad.
 3. No hay framework de pruebas en el repo; la verificación es build + lint + revisión visual en el preview del PR.
 4. La página de muestra `/_ui` existe solo en QA (no se enlaza ni entra al sitemap) para revisar los componentes.
 
@@ -97,4 +97,4 @@ export function Arw({ children }: { children?: ReactNode }) {
 ## Preguntas abiertas
 
 1. ¿La página de muestra `/_ui` puede existir en producción oculta (sin enlaces) o solo la dejamos en `qa`? Recomendación: solo en `qa`.
-2. Mientras no haya dominios (P-25), ¿UnitLogo enlaza a la página actual de cada unidad en benkagroup.co? Recomendación: sí.
+2. Producción no tiene páginas de unidad; el home enlaza a sus redes (LinkedIn de Consulting, Media y Digital LAB; Instagram de Social Venture). Mientras no haya dominios (P-25), ¿UnitLogo enlaza a esas mismas redes? Recomendación: sí.
