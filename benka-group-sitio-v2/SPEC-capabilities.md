@@ -2,7 +2,7 @@
 
 Módulo `capabilities` · Release R3 (junto con `holding`) · Épica BenkaDevelop/benka-group#173 · Historias #174, #175, #176
 Depende de: `ui-base` (R1), `nav` (R2)
-Estado: **aprobada por Jhohan Axelrod el 5 nov 2026**
+Estado: **aprobada por Jhohan Axelrod el 5 nov 2026** · **en producción** (PR BenkaDevelop/benka-group#222 → qa, release #223 → main)
 
 ## Objetivo
 
