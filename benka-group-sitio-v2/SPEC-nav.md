@@ -2,7 +2,7 @@
 
 Módulo `nav` · Release R2 · Épica BenkaDevelop/benka-group#164 · Historias #165, #166, #167, #168
 Depende de: `ui-base` (en producción desde R1)
-Estado: **aprobada por Jhohan Axelrod el 5 nov 2026** · PR BenkaDevelop/benka-group#220
+Estado: **aprobada por Jhohan Axelrod el 5 nov 2026** · **en producción** (PR BenkaDevelop/benka-group#220 → qa, release #221 → main)
 
 ## Objetivo
 

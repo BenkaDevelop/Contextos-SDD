@@ -48,7 +48,7 @@ Casos validados (pueden salir): Nuevo modelo comercial (18% / 12%), Campañas de
 | P-20 | Curación de fotos: revisadas 24 de ~940 (archivos > 5 MB no se pudieron leer) | Comunicaciones | Todas |
 | P-21 | 24 espacios de foto/video de stock con dirección de arte; habilitar bancos (images.unsplash.com, images.pexels.com, videos.pexels.com, cdn.pixabay.com) o comprar licencias | TI / Comunicaciones | industries-rest |
 | P-22 | Video de la fábrica tecnológica para Digital (loop 10–15 s) | Media | Industria Digital |
-| P-23 | Aprobación de las 18 imágenes generadas con IA (industrias, países, eslabones, ingenio) | Comunicaciones | industry-agro, holding |
+| P-23 | ~~Imágenes IA~~ **Resuelto 5 nov 2026:** Jhohan aprueba las 18 imágenes IA para producción; se reemplazan cuando haya fotos reales | Jhohan | — |
 | P-24 | Retrato de Helena sin líneas de marca (hoy el de perfil trae líneas) | Comunicaciones | news · BWS |
 
 ## 5. Decisiones de producto
