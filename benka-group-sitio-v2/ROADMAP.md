@@ -44,8 +44,8 @@ Estado: **aprobada por Jhohan Axelrod el 5 nov 2026** (fase 0 de SDD: mapa de ca
 | R6b ✅ | i18n (selector) | Selector de idioma junto a Contacto; EN y PT visibles con "Pronto" · **en producción 5 nov 2026** |
 | R7 | industry-agro | Agroindustria y sus 5 eslabones |
 | R8–R15 | industries-rest | Una industria por release (sugerido: Consumo masivo, Retail, Servicios financieros, Digital, Educación, Sector social, Medios y telecom, Oil & Gas) |
-| R16b | i18n (traducciones EN · PT) | Al final, con todas las páginas montadas: IA + agente de idiomas + aprobación por página; rutas /en y /pt con hreflang |
 | R16 | careers | Careers rediseñado |
+| R16b | i18n (traducciones EN · PT) | Al final, con todas las páginas montadas: IA + agente de idiomas + aprobación por página; rutas /en y /pt con hreflang |
 | R17+ | unit-sites | Un sitio de unidad por release |
 
 ## Historias (issues) por módulo — borrador
