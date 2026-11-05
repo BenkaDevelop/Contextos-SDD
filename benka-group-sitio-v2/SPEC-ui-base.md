@@ -1,7 +1,7 @@
 # Spec: ui-base · Componentes base del sitio v2
 
 Módulo `ui-base` · Release R1 · Épica BenkaDevelop/benka-group#160 · Historias #161, #162, #163
-Estado: **borrador para aprobación**
+Estado: **aprobada por Jhohan Axelrod el 5 nov 2026** · Implementación: BenkaDevelop/benka-group#218
 
 ## Objetivo
 
@@ -26,7 +26,7 @@ Fuera de alcance: adoptar estos componentes en páginas existentes (eso es R2 en
 1. Los componentes viven en `src/components/sections/` (como en el prototipo) y los estilos en SCSS con los colores de `general-styles/_colors.module.scss`.
 2. `UnitLogo` necesita `src/data/sites.ts` (nombre, dominio y logo de cada unidad). Se sube solo con lo que el componente usa; los dominios siguen pendientes (backlog P-25), así que el enlace apunta por ahora a la red social que ya usa el home de producción para cada unidad.
 3. No hay framework de pruebas en el repo; la verificación es build + lint + revisión visual en el preview del PR.
-4. La página de muestra `/_ui` existe solo en QA (no se enlaza ni entra al sitemap) para revisar los componentes.
+4. La página de muestra `/_ui` está en producción, visible, sin enlace en el menú.
 
 → Corrígeme cualquiera de estos supuestos al aprobar.
 
@@ -51,7 +51,7 @@ src/components/sections/
   Sections.tsx      → Arw, UnitLogo, useScrollReveal (y luego PageShell, CtaBand…)
   Sections.scss     → .bk-btn y variantes, .bk-arw, .bk-row C2, .bk-unitlogo, .bk-rv, .bk-progress
 src/data/sites.ts   → datos mínimos de las 4 unidades para UnitLogo
-src/pages/ui/UiKit.tsx → página de muestra /_ui (solo QA)
+src/pages/ui/UiKit.tsx → página de muestra /_ui (producción, visible)
 ```
 
 ## Estilo de código
@@ -85,7 +85,7 @@ export function Arw({ children }: { children?: ReactNode }) {
 
 - **Siempre:** ramas desde `main`; PR a `qa`; conventional commits; respetar "reducir movimiento"; foco visible.
 - **Preguntar antes:** agregar dependencias; tocar el workflow de despliegue; cambiar estilos globales existentes.
-- **Nunca:** cambiar páginas de producción en este release; subir imágenes pesadas; enlazar `/_ui` desde el sitio.
+- **Nunca:** cambiar páginas de producción en este release; subir imágenes pesadas; enlazar `/_ui` desde el menú.
 
 ## Criterios de éxito
 
@@ -94,7 +94,7 @@ export function Arw({ children }: { children?: ReactNode }) {
 3. Ninguna página existente cambia (capturas antes/después idénticas).
 4. Build y lint en verde; deploy a Hostinger exitoso.
 
-## Preguntas abiertas
+## Decisiones
 
-1. ¿La página de muestra `/_ui` puede existir en producción oculta (sin enlaces) o solo la dejamos en `qa`? Recomendación: solo en `qa`.
-2. Producción no tiene páginas de unidad; el home enlaza a sus redes (LinkedIn de Consulting, Media y Digital LAB; Instagram de Social Venture). Mientras no haya dominios (P-25), ¿UnitLogo enlaza a esas mismas redes? Recomendación: sí.
+1. La página de muestra `/_ui` va a producción y es visible (decisión de Jhohan). No se enlaza desde el menú.
+2. Mientras no haya dominios propios, UnitLogo enlaza a las redes de cada unidad (LinkedIn de Consulting, Media y Digital LAB; Instagram de Social Venture). Cuando se activen los sitios de unidad, avisar a Jhohan para comprar los dominios y activarlos en producción (backlog P-25).
