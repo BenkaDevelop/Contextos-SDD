@@ -1,6 +1,6 @@
 # SPEC · home (R5) · Home
 
-Estado: **borrador para aprobación** · Release R5 · Épica BenkaDevelop/benka-group#182 (historias #183, #184)
+Estado: **aprobada por Jhohan Axelrod el 5 nov 2026** · **en producción** (PR BenkaDevelop/benka-group#230 → qa, release #231 → main) · Release R5 · Épica BenkaDevelop/benka-group#182 (historias #183, #184)
 
 ## 1. Objetivo
 Cerrar el recorrido del home después de R3 y R4. Tres cosas:
@@ -19,9 +19,9 @@ Hero → "We Make Growth Happen" → carrusel de socios → **Lo más reciente d
 
 | # | Momento | Qué se ve | Estado |
 |---|---|---|---|
-| H5-1 | Tarjetas "Únete al equipo" | Las 3 tarjetas (Tu carrera, Ser consultor, Proceso de selección) son clicables y tienen "Ver más", que baja a "Transforma tu carrera" en el mismo home. Cuando exista /careers (R16) cambia a sus anclas | Decidido |
-| H5-2 | Oficinas en el home | Bloque de oficinas con las 4 ciudades y sus fotos originales; **se mueve de /trajectory al home** (sale de Trayectoria) | Decidido |
-| H5-3 | Orden del home | Hero → We Make Growth Happen → socios → Lo más reciente de Benká → Nuestro Impacto → **Oficinas** → Únete al equipo → Transforma tu carrera → Conversemos | Decidido |
+| H5-1 | Tarjetas "Únete al equipo" | Las 3 tarjetas (Tu carrera, Ser consultor, Proceso de selección) son clicables y tienen "Ver más", que baja a "Transforma tu carrera" en el mismo home. Cuando exista /careers (R16) cambia a sus anclas | Aprobado |
+| H5-2 | Oficinas en el home | Bloque de oficinas con las 4 ciudades y sus fotos originales; **se mueve de /trajectory al home** (sale de Trayectoria) | Aprobado |
+| H5-3 | Orden del home | Hero → We Make Growth Happen → socios → Lo más reciente de Benká → Nuestro Impacto → **Oficinas** → Únete al equipo → Transforma tu carrera → Conversemos | Aprobado |
 
 ## 4. Decisiones (5 nov 2026, Jhohan Axelrod)
 - **D1** · "Ver más" baja a Transforma tu carrera hasta que exista /careers (R16).

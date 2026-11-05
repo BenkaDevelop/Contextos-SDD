@@ -39,7 +39,7 @@ Estado: **aprobada por Jhohan Axelrod el 5 nov 2026** (fase 0 de SDD: mapa de ca
 | R2 | nav (sin Holding/Capabilities/Noticias aún) | Desplegable glass en Industrias, Careers y Reportes; hamburguesa en pantallas medianas; footer ajustado |
 | R3 ✅ | holding + capabilities + nav | Aparecen Holding y Capabilities en el menú con sus páginas; el Ecosistema sale del home y vive en /holding · **en producción 5 nov 2026** |
 | R4 ✅ | news + home (noticias) | Noticias en el menú y en el home; Black Women Shaping Afrofutures con fotos reales del foro en Columbia · **en producción 5 nov 2026** |
-| R5 | home | Tarjetas de Únete al equipo enlazadas a Careers; ecosistema y oficinas |
+| R5 ✅ | home | Únete al equipo con Ver más (baja a Transforma tu carrera hasta R16); oficinas pasan de Trayectoria al home · **en producción 5 nov 2026** |
 | R6 | industries-hub | Nueva página de Industrias |
 | R7 | industry-agro | Agroindustria y sus 5 eslabones |
 | R8–R15 | industries-rest | Una industria por release (sugerido: Consumo masivo, Retail, Servicios financieros, Digital, Educación, Sector social, Medios y telecom, Oil & Gas) |
