@@ -2,7 +2,7 @@
 
 Módulo `holding` · Release R3 (junto con `capabilities`) · Épica BenkaDevelop/benka-group#169 · Historias #170, #171, #172
 Depende de: `ui-base` (R1), `nav` (R2)
-Estado: **borrador para aprobación**
+Estado: **aprobada por Jhohan Axelrod el 5 nov 2026**
 
 ## Objetivo
 
@@ -15,7 +15,7 @@ Que un visitante entienda en una sola página que Benká Group es un holding de 
 | Historia | Qué se publica |
 |---|---|
 | #170 Página /holding | Hero "más allá del asesoramiento" (en azul), una tarjeta por compañía con foto (sin cortar caras), territorio, propósito, 4 servicios y botón "Ir a {canal}" con la flecha estándar |
-| #171 Presencia regional | Bloque "Por qué somos el catalizador": Colombia con foto real; Ecuador, Perú, Chile y Argentina según decisión P-14 |
+| #171 Presencia regional | Bloque "Por qué somos el catalizador": Colombia, Ecuador, Perú, Chile y Argentina como operación activa (decisión P-14 de Jhohan) |
 | #172 Menú y redirección | Holding se enciende en el menú con desplegable glass de las 4 compañías; /ecosystem y /ecosystem/:unit redirigen a /holding |
 
 Fuera de alcance: sitios propios de cada unidad (módulo `unit-sites`, requiere dominios P-25).

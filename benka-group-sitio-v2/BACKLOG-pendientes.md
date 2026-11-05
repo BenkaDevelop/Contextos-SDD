@@ -34,7 +34,7 @@ Casos validados (pueden salir): Nuevo modelo comercial (18% / 12%), Campañas de
 | P-11 | PIB agro IV-2025: −0,4% vs −0,3% | Agro › DataPanel | Fuentes no coinciden; usar el boletín DANE definitivo |
 | P-12 | Adopción tecnológica del agro: 15% vs 30% | Eslabón Cultivo | Fuentes no comparables |
 | P-13 | Revisar las 12 cifras de retos y las de los 5 eslabones contra fuentes primarias (DANE, DNP, gremios) | Agro | Hoy vienen de prensa económica |
-| P-14 | Presencia regional: Ecuador, Perú, Chile y Argentina | Holding | Confirmar operación real en cada país |
+| P-14 | ~~Presencia regional~~ **Resuelto 5 nov 2026:** los 5 países (Colombia, Ecuador, Perú, Chile, Argentina) se publican como operación activa | Holding | Decisión de Jhohan |
 | P-15 | Indicadores del grupo (5-10%, 8+, 3X, 25+) y "+100 proyectos" | Home, Holding, Consulting | Confirmar fuente interna |
 
 ## 4. Contenido y medios
@@ -60,7 +60,7 @@ Casos validados (pueden salir): Nuevo modelo comercial (18% / 12%), Campañas de
 | P-27 | Quién aprueba los PR de `qa` → `main` | Jhohan |
 | P-38 | El flujo de PR publica por FTP directo en producción (no hay QA). Jhohan decidió mantenerlo (5 nov 2026); cada PR se abre solo con diseño aprobado en el preview | Jhohan |
 | P-28 | Expertos por industria (hoy Agro: Jhohan, Helena, José; resto por definir) | Jhohan |
-| P-29 | Unidad líder de Loyalty as a Service (hoy Media, según el portafolio) | Jhohan |
+| P-29 | ~~Unidad líder de LaaS~~ **Resuelto 5 nov 2026:** Benká Media | Jhohan |
 | P-30 | Orden de las industrias R8–R15 (sugerido: Consumo masivo, Retail, Servicios financieros, Digital, Educación, Sector social, Medios y telecom, Oil & Gas) | Jhohan |
 
 ## 6. Técnico

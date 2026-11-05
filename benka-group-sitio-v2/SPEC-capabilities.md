@@ -2,7 +2,7 @@
 
 Módulo `capabilities` · Release R3 (junto con `holding`) · Épica BenkaDevelop/benka-group#173 · Historias #174, #175, #176
 Depende de: `ui-base` (R1), `nav` (R2)
-Estado: **borrador para aprobación**
+Estado: **aprobada por Jhohan Axelrod el 5 nov 2026**
 
 ## Objetivo
 
@@ -21,7 +21,7 @@ Mostrar "lo que sabemos hacer": 22 prácticas derivadas de las industrias en las
 ## Supuestos
 
 1. Las industrias de cada tarjeta se muestran como etiquetas **sin enlace** mientras no existan las páginas de industria (R6+); se vuelven enlaces al publicarlas.
-2. Loyalty as a Service queda liderada por Media (P-29), salvo que se decida otra cosa.
+2. Loyalty as a Service la lidera Benká Media (decisión P-29 de Jhohan).
 3. Sin cifras en este módulo: no hay nada "Por validar".
 
 ## Estructura
