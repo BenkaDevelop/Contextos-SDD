@@ -1,7 +1,7 @@
 # Spec: ui-base · Componentes base del sitio v2
 
 Módulo `ui-base` · Release R1 · Épica BenkaDevelop/benka-group#160 · Historias #161, #162, #163
-Estado: **aprobada por Jhohan Axelrod el 5 nov 2026** · Implementación: BenkaDevelop/benka-group#218
+Estado: **en producción** desde el 5 nov 2026 · PR BenkaDevelop/benka-group#218 → qa · release BenkaDevelop/benka-group#219 → main
 
 ## Objetivo
 

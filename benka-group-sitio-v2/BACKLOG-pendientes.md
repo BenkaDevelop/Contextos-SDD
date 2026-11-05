@@ -58,7 +58,7 @@ Casos validados (pueden salir): Nuevo modelo comercial (18% / 12%), Campañas de
 | P-25 | Dominios propios de las unidades (benkaconsulting.co, benkamedia.com, benkadigitallab.com, benkasocialventure.org). Mientras tanto los logos enlazan a las redes. **Avisar a Jhohan para comprarlos antes de activar los sitios de unidad en producción** | Jhohan + Helena |
 | P-26 | Rediseño completo de Careers | Jhohan |
 | P-27 | Quién aprueba los PR de `qa` → `main` | Jhohan |
-| P-38 | Alinear `qa` con `main`: hoy difieren en los workflows de despliegue (Hostinger vs Firebase) | TI |
+| P-38 | El flujo de PR publica por FTP directo en producción (no hay QA). Jhohan decidió mantenerlo (5 nov 2026); cada PR se abre solo con diseño aprobado en el preview | Jhohan |
 | P-28 | Expertos por industria (hoy Agro: Jhohan, Helena, José; resto por definir) | Jhohan |
 | P-29 | Unidad líder de Loyalty as a Service (hoy Media, según el portafolio) | Jhohan |
 | P-30 | Orden de las industrias R8–R15 (sugerido: Consumo masivo, Retail, Servicios financieros, Digital, Educación, Sector social, Medios y telecom, Oil & Gas) | Jhohan |
