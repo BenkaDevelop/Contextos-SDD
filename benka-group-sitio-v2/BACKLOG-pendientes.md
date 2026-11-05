@@ -49,6 +49,7 @@ Casos validados (pueden salir): Nuevo modelo comercial (18% / 12%), Campañas de
 | P-21 | 24 espacios de foto/video de stock con dirección de arte; habilitar bancos (images.unsplash.com, images.pexels.com, videos.pexels.com, cdn.pixabay.com) o comprar licencias | TI / Comunicaciones | industries-rest |
 | P-22 | Video de la fábrica tecnológica para Digital (loop 10–15 s) | Media | Industria Digital |
 | P-23 | ~~Imágenes IA~~ **Resuelto 5 nov 2026:** Jhohan aprueba las 18 imágenes IA para producción; se reemplazan cuando haya fotos reales | Jhohan | — |
+| P-40 | Selector de idioma ES · EN · PT para todo el sitio: quién traduce y aprueba EN y PT, y si las URL cambian por idioma | Jhohan | Release R6b (i18n) |
 | P-39 | Enlace de la nota "Becario Sueños de Paz" (Fundación Lumni); en Firestore está vacío | Jhohan / Comunicaciones | news |
 | P-24 | Retrato de Helena sin líneas de marca (hoy el de perfil trae líneas) | Comunicaciones | news · BWS |
 
