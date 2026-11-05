@@ -101,3 +101,9 @@ Aplica a **todo** glass de navegación: desplegables del menú, selector de idio
 3. **Ningún botón sale del marco de la barra.** En celular, los controles miden 28 px de alto y van centrados con la hamburguesa (centro a 34 px).
 4. **Antes de publicar se mide en escritorio y celular:** el borde superior del panel tiene que ser igual al borde inferior de `.box-up`, y los controles tienen que quedar dentro de la barra.
 
+
+## Menú hamburguesa estilo BCG (aprobado 5 nov 2026) · en producción (PR BenkaDevelop/benka-group#240 → qa, release #241)
+- **Panel:** glass azul translúcido (rgba(30, 65, 255, 0.74) con desenfoque y reflejo). Arranca donde termina la barra (48 px). En celular ocupa toda la pantalla; en tablet es un panel lateral de 420 px.
+- **Nivel 1:** secciones a 18 px. Las que tienen opciones llevan "›". La sección actual se marca en vidrio. Al final va "Contacto" en píldora blanca.
+- **Nivel 2:** "‹ Volver", el título, "Ver {sección}" (lleva a la página, como el Overview de BCG) y las subopciones. Capabilities aparece agrupado por tipo.
+- **Barra < 1280 px:** 48 px de alto, con logo, selector de idioma (26 px) y hamburguesa centrados a 24 px. Contacto va dentro del menú.
