@@ -1,6 +1,6 @@
 # SPEC · news (R4) · Noticias
 
-Estado: **borrador para aprobación** · Release R4 · Épica BenkaDevelop/benka-group#177 (historias #178–#181)
+Estado: **aprobada por Jhohan Axelrod el 5 nov 2026** · **en producción** (PR BenkaDevelop/benka-group#226 → qa, release #227 → main) · Release R4 · Épica BenkaDevelop/benka-group#177 (historias #178–#181)
 
 ## 1. Objetivo
 Darle a benkagroup.co una sala de prensa al estilo BCG/McKinsey. Debe mostrar lo que pasa en el holding (personas, proyectos, impacto) y darle alta visibilidad a Helena Valencia y a Black Women Shaping Afrofutures.
@@ -22,13 +22,13 @@ Darle a benkagroup.co una sala de prensa al estilo BCG/McKinsey. Debe mostrar lo
 
 | # | Momento | Qué se ve | Estado |
 |---|---|---|---|
-| N1 | Menú | Opción "Noticias" **junto a Reportes** (… Careers · Noticias · Reportes) · sin desplegable, va directo a /news | Decidido |
-| N2 | Hero y mosaico de /news | Migas · eyebrow "NOTICIAS" · "Lo más reciente de Benká" · mosaico: **grande = Black Women Shaping Afrofutures con Helena sentada**, Reporte BIC 2025 en azul con pattern, #SoyEgresadoSoyUnivalle con la foto de su nota a tamaño real sobre azul | Por aprobar |
-| N3 | Archivo | Eyebrow "ARCHIVO" · "Todas las noticias" · filtros Todas · Eventos · Prensa · Reportes · **misma tarjeta de las noticias de las páginas de socios** (foto 273×292 a tamaño real, tiempo de lectura, título, resumen, medio y "Ver más"), en 2 columnas | Por aprobar |
-| N4 | Black Women Shaping Afrofutures | Página /news/black-women-shaping-afrofutures · hero con Helena frente al backdrop del foro · "Sobre el foro" con retrato de Helena, resumen de la nota de Columbia, organizadores, apoyo, lugar y fecha, edición y fuente · galería "Así vivimos el foro" (8 fotos, filtro Todo / Con Helena) · cierre "¿Quieres sumarte?" | Por aprobar |
+| N1 | Menú | Opción "Noticias" **junto a Reportes** (… Careers · Noticias · Reportes) · sin desplegable, va directo a /news | Aprobado |
+| N2 | Hero y mosaico de /news | Migas · eyebrow "NOTICIAS" · "Lo más reciente de Benká" · mosaico: **grande = Black Women Shaping Afrofutures con Helena sentada**, Reporte BIC 2025 en azul con pattern, #SoyEgresadoSoyUnivalle con la foto de su nota a tamaño real sobre azul | Aprobado |
+| N3 | Archivo | Eyebrow "ARCHIVO" · "Todas las noticias" · filtros Todas · Eventos · Prensa · Reportes · **misma tarjeta de las noticias de las páginas de socios** (foto 273×292 a tamaño real, tiempo de lectura, título, resumen, medio y "Ver más"), en 2 columnas | Aprobado |
+| N4 | Black Women Shaping Afrofutures | Página /news/black-women-shaping-afrofutures · hero con Helena frente al backdrop del foro · "Sobre el foro" con retrato de Helena, resumen de la nota de Columbia, organizadores, apoyo, lugar y fecha, edición y fuente · hero con Helena hablando en negro con panel de vidrio · galería tipo Apple "Así vivimos el foro" (9 fotos, foto grande, miniaturas glass, flechas y teclado; filtro Todo / Con Helena) · cierre "¿Quieres sumarte?" | Aprobado |
 | N5 | Cierre de /news | Banda azul con pattern: "¿Quieres contar una historia con nosotros?" · "Escríbenos para alianzas, prensa y eventos." · "Hablemos" y "Ver capabilities" | Aprobado |
 | N6 | Mosaico en el home | "Lo más reciente de Benká": 1 destacada + 3 tarjetas al estilo BCG · "Ver todas las noticias" · **después de Nosotros**, donde estaba el Ecosistema, antes de Nuestro Impacto | Aprobado |
-| N7 | Páginas de socios | Las notas siguen apareciendo en Helena y Jhohan como hoy (sin cambios) | Pendiente |
+| N7 | Páginas de socios | Las notas siguen apareciendo en Helena y Jhohan como hoy (sin cambios) | Aprobado |
 
 ## 4. Decisiones (5 nov 2026, Jhohan Axelrod)
 - Las notas de prensa externas **abren su fuente** en pestaña nueva ("Leer en {medio}").
