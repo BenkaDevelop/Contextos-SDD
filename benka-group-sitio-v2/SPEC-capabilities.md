@@ -22,11 +22,11 @@ Mostrar "lo que sabemos hacer": 22 prácticas derivadas de las industrias en las
 
 | # | Momento | Contenido y diseño propuestos | Estado |
 |---|---|---|---|
-| C1 | Hero | Foto del equipo en sesión de trabajo con velo azul oscuro · migas · eyebrow "CAPABILITIES" · título "Lo que sabemos hacer, **de la estrategia a la implementación.**" · "22 prácticas que nacen de las industrias en las que trabajamos y que entrega todo el holding." · 4 contadores de vidrio por grupo (7, 6, 6, 3) que filtran y bajan a la grilla | Pendiente |
-| C2 | Filtros y tarjetas | Eyebrow "PRÁCTICAS" · "Elige tu reto" · filtros: Todas + 4 grupos · grilla de 3 columnas · tarjeta: número, grupo, nombre, resumen, 3 resultados, industrias (etiquetas sin enlace) y "Lidera" con el logo de la compañía · al pasar el cursor la tarjeta sube y brilla | Pendiente |
-| C3 | Bloque Holding | "Cuatro compañías, una sola respuesta" · botones "Conoce el holding" y "Ver industrias" | Pendiente |
-| C4 | Cierre | Banda azul con pattern: "¿Qué capability necesita tu organización?" · "Hablemos" y "Ver industrias" | Pendiente |
-| C5 | Menú | Opción "Capabilities" · desplegable glass de 3 columnas con las 22 prácticas en orden alfabético por columnas · cada una baja a su tarjeta | Pendiente |
+| C1 | Hero | Foto del equipo en sesión de trabajo con velo azul oscuro · migas · eyebrow "CAPABILITIES" · título "Lo que sabemos hacer, **de la estrategia a la implementación.**" · "22 prácticas que nacen de las industrias en las que trabajamos y que entrega todo el holding." · 4 contadores de vidrio por grupo (7, 6, 6, 3) que filtran y bajan a la grilla | Aprobado |
+| C2 | Filtros y tarjetas | Eyebrow "PRÁCTICAS" · "Elige tu reto" · filtros: Todas + 4 grupos · grilla de 3 columnas · tarjeta **compacta**: número, grupo, nombre, resumen, industrias (etiquetas sin enlace) y "Lidera" con el logo de la compañía (sin la lista de 3 resultados) · al pasar el cursor la tarjeta sube y brilla | Aprobado |
+| C3 | Bloque Holding | "Cuatro compañías, una sola respuesta" · botones "Conoce el holding" y "Ver industrias" · **un solo gris continuo** que envuelve también la banda de cierre | Aprobado |
+| C4 | Cierre | Banda azul con pattern: "¿Qué capability necesita tu organización?" · "Hablemos" y "Ver industrias" | Aprobado |
+| C5 | Menú | Opción "Capabilities" · desplegable glass de **4 columnas, una por tipo** (Estrategia y transformación 7 · Comercial, marca y lealtad 6 · Digital, datos e IA 6 · Impacto y sostenibilidad 3), con título por columna y orden alfabético dentro de cada una · cada práctica baja a su tarjeta · en celular, lista alfabética · **todos los glass del menú arrancan donde empieza la imagen** (borde inferior del header), sin rozar el botón Contacto, y se cierran con 220 ms de retardo | Aprobado |
 
 ## Supuestos
 
