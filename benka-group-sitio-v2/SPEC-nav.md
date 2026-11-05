@@ -107,3 +107,7 @@ Aplica a **todo** glass de navegación: desplegables del menú, selector de idio
 - **Nivel 1:** secciones a 18 px. Las que tienen opciones llevan "›". La sección actual se marca en vidrio. Al final va "Contacto" en píldora blanca.
 - **Nivel 2:** "‹ Volver", el título, "Ver {sección}" (lleva a la página, como el Overview de BCG) y las subopciones. Capabilities aparece agrupado por tipo.
 - **Barra < 1280 px:** 48 px de alto, con logo, selector de idioma (26 px) y hamburguesa centrados a 24 px. Contacto va dentro del menú.
+
+## Selector de idioma junto a Contacto (ajuste 5 nov 2026, PR BenkaDevelop/benka-group#242 → #243)
+- Mismo comportamiento que "Contacto": glass gris translúcido sobre la foto y blanco con borde negro al hacer scroll (usa las mismas variables `--opacity` e `--invert`). En celular la barra siempre es blanca, así que va blanco.
+- Abierto: pestaña azul con la misma forma que Holding y Capabilities (sube sobre el botón y baja hasta donde termina la barra) y curva cóncava donde se une con el panel. No toca Contacto.
