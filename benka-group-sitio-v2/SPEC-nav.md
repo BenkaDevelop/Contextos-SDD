@@ -94,3 +94,10 @@ Por decisión de Jhohan se mantiene el flujo actual: **abrir el PR publica en be
 - **Pestaña glass azul Benká:** la opción en la que estás parado sube como pestaña y se une al panel de abajo en una sola pieza, con curvas cóncavas en la unión. El panel usa el mismo azul (rgba(30, 65, 255, 0.92)). Aplica a todos los desplegables.
 - **Orden del menú:** Holding · Nosotros · Trayectoria · Industrias · Capabilities · Careers · Reportes.
 
+## Regla permanente de los glass del menú (Jhohan Axelrod, 5 nov 2026)
+Aplica a **todo** glass de navegación: desplegables del menú, selector de idioma y cualquiera que se agregue.
+1. **El panel arranca exactamente donde termina la barra**, es decir, donde empiezan las imágenes: 66 px en escritorio y 48 px en celular. Nunca más arriba ni más abajo.
+2. **La opción abierta se une con el panel** como pestaña azul (rgba(30, 65, 255, 0.92)). La pestaña cubre la distancia entre el botón y el borde de la barra, sin huecos.
+3. **Ningún botón sale del marco de la barra.** En celular, los controles miden 28 px de alto y van centrados con la hamburguesa (centro a 34 px).
+4. **Antes de publicar se mide en escritorio y celular:** el borde superior del panel tiene que ser igual al borde inferior de `.box-up`, y los controles tienen que quedar dentro de la barra.
+
