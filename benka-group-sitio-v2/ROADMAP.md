@@ -42,7 +42,8 @@ Estado: **aprobada por Jhohan Axelrod el 5 nov 2026** (fase 0 de SDD: mapa de ca
 | R5 ✅ | home | Únete al equipo con Ver más (baja a Transforma tu carrera hasta R16); oficinas pasan de Trayectoria al home · **en producción 5 nov 2026** |
 | R6 ✅ | industries-hub | Nueva página de Industrias · **en producción 5 nov 2026** |
 | R6b ✅ | i18n (selector) | Selector de idioma junto a Contacto; EN y PT visibles con "Pronto" · **en producción 5 nov 2026** |
-| R7 | industry-agro | Agroindustria y sus 5 eslabones |
+| R7a ✅ | industry-agro | Página de Agroindustria · **en producción 5 nov 2026** (#244/#245) |
+| R7b | industry-agro | Las 5 páginas por eslabón |
 | R8–R15 | industries-rest | Una industria por release (sugerido: Consumo masivo, Retail, Servicios financieros, Digital, Educación, Sector social, Medios y telecom, Oil & Gas) |
 | R16 | careers | Careers rediseñado |
 | R16b | i18n (traducciones EN · PT) | Al final, con todas las páginas montadas: IA + agente de idiomas + aprobación por página; rutas /en y /pt con hreflang |

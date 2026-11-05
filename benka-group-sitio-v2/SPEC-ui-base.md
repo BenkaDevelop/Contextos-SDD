@@ -98,3 +98,8 @@ export function Arw({ children }: { children?: ReactNode }) {
 
 1. La página de muestra `/_ui` va a producción y es visible (decisión de Jhohan). No se enlaza desde el menú.
 2. Mientras no haya dominios propios, UnitLogo enlaza a las redes de cada unidad (LinkedIn de Consulting, Media y Digital LAB; Instagram de Social Venture). Cuando se activen los sitios de unidad, avisar a Jhohan para comprar los dominios y activarlos en producción (backlog P-25).
+
+## Regla de color permanente (Jhohan Axelrod, 5 nov 2026)
+- **Sobre fondos oscuros** (fotos con vidrio oscuro, secciones negras, fondos azules): acentos en **azul claro Benká `#8AB7F9`** (el de la "K" del logo).
+- **Sobre fondos claros** (blanco, gris): acentos en **azul catalyst `#1E41FF`**.
+- No se usan otros azules (el lila `#9FB2FF`/`#8FA2FF` del prototipo queda prohibido). Botones primarios siguen en catalyst.
