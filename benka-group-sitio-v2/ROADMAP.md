@@ -4,6 +4,8 @@ Estado: **aprobada por Jhohan Axelrod el 5 nov 2026** (fase 0 de SDD: mapa de ca
 
 ## Principios
 
+- **Aprobación momento por momento (regla de Jhohan, 5 nov 2026).** El prototipo es guía, no aprobación. Cada spec lista sus **momentos** (cada sección de cada página: contenido, textos, imágenes, interacción y estado) y Jhohan aprueba cada uno a detalle antes de implementarlo. Nada se publica con un momento sin aprobar.
+
 - **Punto de partida = producción.** Toda feature nace de `main` (hoy `68ae402`). El prototipo v3.7 (rama `feature/site-v2-industrias-careers-ecosistema` + cambios locales) es la **referencia de diseño**, no se mergea en bloque.
 - **Flujo de ramas** (el que ya usa el repo): `feature/<modulo>-<historia>` → PR a `qa` → revisión en el preview del PR → PR `qa` → `main` → deploy automático a Hostinger.
 - **Releases pequeños.** Cada historia es un PR de ≤ 5 archivos aprox., verificable en el preview, y deja producción funcionando. Lo que no está listo se oculta (no se publica a medias).

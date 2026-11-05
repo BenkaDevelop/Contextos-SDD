@@ -18,6 +18,16 @@ Mostrar "lo que sabemos hacer": 22 prácticas derivadas de las industrias en las
 | #175 Página | Hero con foto y 4 grupos (Estrategia y transformación, Comercial/marca/lealtad, Digital/datos/IA, Impacto); filtros por grupo; tarjeta con resultados, industrias y logo de la unidad líder; CTA |
 | #176 Menú | Capabilities en el menú con desplegable glass de 3 columnas ordenado por columnas; cada opción baja a su tarjeta |
 
+## Momentos (aprobación a detalle)
+
+| # | Momento | Contenido y diseño propuestos | Estado |
+|---|---|---|---|
+| C1 | Hero | Foto del equipo en sesión de trabajo con velo azul oscuro · migas · eyebrow "CAPABILITIES" · título "Lo que sabemos hacer, **de la estrategia a la implementación.**" · "22 prácticas que nacen de las industrias en las que trabajamos y que entrega todo el holding." · 4 contadores de vidrio por grupo (7, 6, 6, 3) que filtran y bajan a la grilla | Pendiente |
+| C2 | Filtros y tarjetas | Eyebrow "PRÁCTICAS" · "Elige tu reto" · filtros: Todas + 4 grupos · grilla de 3 columnas · tarjeta: número, grupo, nombre, resumen, 3 resultados, industrias (etiquetas sin enlace) y "Lidera" con el logo de la compañía · al pasar el cursor la tarjeta sube y brilla | Pendiente |
+| C3 | Bloque Holding | "Cuatro compañías, una sola respuesta" · botones "Conoce el holding" y "Ver industrias" | Pendiente |
+| C4 | Cierre | Banda azul con pattern: "¿Qué capability necesita tu organización?" · "Hablemos" y "Ver industrias" | Pendiente |
+| C5 | Menú | Opción "Capabilities" · desplegable glass de 3 columnas con las 22 prácticas en orden alfabético por columnas · cada una baja a su tarjeta | Pendiente |
+
 ## Supuestos
 
 1. Las industrias de cada tarjeta se muestran como etiquetas **sin enlace** mientras no existan las páginas de industria (R6+); se vuelven enlaces al publicarlas.

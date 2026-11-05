@@ -20,6 +20,16 @@ Que un visitante entienda en una sola página que Benká Group es un holding de 
 
 Fuera de alcance: sitios propios de cada unidad (módulo `unit-sites`, requiere dominios P-25).
 
+## Momentos (aprobación a detalle)
+
+| # | Momento | Contenido y diseño propuestos | Estado |
+|---|---|---|---|
+| H1 | Hero | Migas Inicio / Holding · eyebrow "HOLDING BENKÁ" · título "La consultoría estratégica va **más allá del asesoramiento.**" (la segunda parte en azul) · texto: "Implica visión, implementación y desarrollo. Por eso creamos un holding empresarial que combina estrategia, marca, tecnología e impacto social para garantizar el crecimiento integral de las organizaciones." · sin imagen · 40 px de aire hasta las tarjetas | Pendiente |
+| H2 | Las 4 compañías | Grilla 2×2 · tarjeta con foto arriba (320 px de alto), barra del color de la compañía, logo, territorio, propósito, 4 servicios y botón "Ir a Benká {X}" que abre su red (LinkedIn/Instagram) en pestaña nueva · fondo del color oscuro de cada compañía · fotos: **por definir** (las actuales se pixelan) | Ajustes pedidos |
+| H3 | Presencia regional | Eyebrow "PRESENCIA REGIONAL" · título "Por qué somos el catalizador del crecimiento en América Latina" · texto con "más de 25 aliados estratégicos" (cifra P-15) · Colombia grande (Cali · Bogotá · Medellín · Cartagena, "más de 100 proyectos") + Ecuador, Perú, Chile y Argentina con foto, ciudad y una línea | Pendiente |
+| H4 | Cierre | Banda azul con pattern: "Un solo equipo para tu transformación integral." · "Combinamos las capabilities del holding según tu reto." · botones "Hablemos" (contacto) y "Ver industrias" | Pendiente |
+| H5 | Menú | Opción "Holding" entre Trayectoria e Industrias · desplegable glass con las 4 compañías (abren su red) · /ecosystem redirige a /holding | Pendiente |
+
 ## Supuestos
 
 1. Los textos de cada compañía (territorio, propósito, servicios) vienen de `units.ts` del prototipo, tomados de los brand books y el brochure. Ya fueron revisados en las rondas de diseño.
