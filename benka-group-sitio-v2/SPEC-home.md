@@ -33,3 +33,9 @@ Hero → "We Make Growth Happen" → carrusel de socios → **Lo más reciente d
 - Sin desborde a 390 px; las tarjetas son accesibles con teclado.
 - Las fotos de oficinas no se pixelan (WebP a 2× del tamaño mostrado).
 - Ninguna sección aprobada del home se pierde.
+
+## Cambios del 6 nov 2026
+- **We Make Growth Happen (#268, #269):** carrusel con 5 tarjetas a la vista: Talento Benká, Industrias, Capabilities (foto team/duo-consult), Careers (foto trajectory-hero/complete-squad; baja a «Transforma tu carrera» hasta /careers) y Trayectoria (path_about_us).
+- **Hero (#270, #271):** «The Catalyst for the Future» con píldora glass del ancho de «Catalyst»: «Rigor estratégico, resultados que se miden.» (tamaño de letra ajustado al ancho, padding de botón). Párrafo: «Acompañamos a la alta dirección en las decisiones que cambian la trayectoria de sus compañías en América Latina. Convertimos visión en progreso: en Benká Group empoderamos organizaciones, comunidades y gobiernos para impulsar economías y construir el futuro.» CTAs: «Agenda una sesión con un socio» y «Explora nuestras capabilities».
+- **Nuestro enfoque (#270, #271):** después del carrusel y antes de Perspectivas. «Rigor de firma global, socios en el día a día del proyecto.» Fases: Definir el problema · Estructurar · Analizar y sintetizar · Implementar y medir, con una luz que recorre la línea de cada fase. Fondo azul catalyst con mapa de LATAM en puntos (`latam-dots.svg`) con destellos sutiles.
+- **Nuestro Impacto:** «Medimos nuestro trabajo por el valor que genera: en los resultados de nuestros clientes y en las economías de América Latina donde operan.»

@@ -111,3 +111,8 @@ Aplica a **todo** glass de navegación: desplegables del menú, selector de idio
 ## Selector de idioma junto a Contacto (ajuste 5 nov 2026, PR BenkaDevelop/benka-group#242 → #243)
 - Mismo comportamiento que "Contacto": glass gris translúcido sobre la foto y blanco con borde negro al hacer scroll (usa las mismas variables `--opacity` e `--invert`). En celular la barra siempre es blanca, así que va blanco.
 - Abierto: pestaña azul con la misma forma que Holding y Capabilities (sube sobre el botón y baja hasta donde termina la barra) y curva cóncava donde se une con el panel. No toca Contacto.
+
+## Cambios del 6 nov 2026
+- **Industrias (#266, #267):** desplegable en dos niveles. Izquierda: las 11 industrias por Sector primario (Agro-industry, Oil & Gas), secundario (Consumer Packaged Goods) y terciario (Retail, Financial Services, Digital, Media & Telecommunications, Education, Social Sector, Public Sector, Multilateral & International Cooperation). Derecha: capabilities de la industria señalada, con enlace a su tarjeta, y «Ver la industria». Sin página = «Pronto». En celular, cada industria se despliega con sus capabilities. Fuente única: `practices.industries` + `industryGroups` en `industries-hub.ts`.
+- **Capabilities (#268, #269):** franja «Se aplica en» al pie del desplegable con las industrias de la capability señalada.
+- **Noticias → Perspectivas (#270, #271):** misma ruta /news.

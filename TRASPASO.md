@@ -1,6 +1,6 @@
 # Traspaso · Benká Group sitio v2 y Nova
 
-Escrito el 6 nov 2026 al cerrar la sesión de Claude `session_01WEQvrcMdnj1MpVZe5igTBG`, para seguir el trabajo desde un proyecto. Léelo completo antes de tocar algo.
+Actualizado el 6 nov 2026 (tarde) desde el proyecto «Proyecto NOVA», sesión `session_01WEQvrdBjk3Aa5sTUx3AkBe`. Léelo completo antes de tocar algo.
 
 ## 1. Quién y cómo se trabaja
 - **Dueño:** Jhohan Axelrod, Presidente Ejecutivo de Benká Group (jaxelrod@benkagroup.co).
@@ -18,8 +18,10 @@ Escrito el 6 nov 2026 al cerrar la sesión de Claude `session_01WEQvrcMdnj1MpVZe
 ## 2. Reglas permanentes de Jhohan
 - **Aprobación:**
   - No se sube nada a los repositorios sin su aprobación explícita. Subir una rama `feature` está bien una vez aprobado el cambio; los PR requieren su «publícalo».
-  - Desde el 6 nov se aprueba **por página completa**, con un HTML que muestre capturas de escritorio y celular, momentos, cifras con fuente y pendientes.
-- **Preguntas:** siempre de opción múltiple, con la recomendación marcada.
+  - Se aprueba **por página completa en la Mesa de aprobación de la consola** (vista en vivo de escritorio a 1440 px y de iPhone 13, momentos, cifras con fuente y pendientes). Nada sale a producción sin pasar por la mesa.
+- **Preguntas:** siempre de selección múltiple con la herramienta de opciones, con la recomendación marcada.
+- **Tipografía:** solo las de Benká (Atyp) en todos los textos.
+- **Credenciales:** «McKinsey Alumni» y «Grupo Aval Alumni» solo para Jhohan, en la sección de socios, no en el hero.
 - **Contenido:**
   - Nunca se inventan textos, cifras ni citas.
   - Las cifras de mercado llevan la fuente visible y enlazada.
@@ -32,45 +34,35 @@ Escrito el 6 nov 2026 al cerrar la sesión de Claude `session_01WEQvrcMdnj1MpVZe
   - Imágenes IA para paisajes y operación; fotos reales del equipo (sesión RDM del Kit de Marca) para personas.
   - No se repiten fotos y se prefieren las grupales.
   - En Holding no se usan imágenes IA. La foto de Colombia no se cambia.
-- **Idioma:** los nombres de industria van en inglés.
+- **Idioma:** los nombres de industria van en inglés; los textos en español.
+- **Tono:** firma de alta estrategia; nada asistencialista. Casos con Reto → Enfoque → Impacto.
 - **Dominios:** avisar a Jhohan antes de activar los sitios de unidad, para que compre los dominios (P-25).
 
-## 3. Estado al 6 nov 2026
-**En producción (hasta el PR #265):**
-- Releases R1 a R7a.
-- Oficinas por ciudad (`/offices/:id`).
-- **R7b:** los 5 eslabones de Agroindustria.
-- **R8 a R11:** Consumer Packaged Goods, Retail, Financial Services y Digital (#262 y #263).
-- **Plataforma:** página 404, `.htaccess`, sitemap con 28 URL, títulos y descripciones por página, imágenes en WebP con el build de 233 a 75 MB (#264 y #265).
+## 3. Estado al 6 nov 2026 (cierre de la tarde)
+**En producción (hasta el PR #273):**
+- Releases R1 a R7a, Oficinas por ciudad, R7b (5 eslabones de Agroindustria) y plataforma (#264, #265).
+- **Las 9 industrias:** R8–R11 (#262, #263) y R12–R15 Education, Social Sector, Media & Telecommunications y Oil & Gas (#272, #273). Sitemap con 32 URL.
+- **Industrias conectada con Capabilities (#266, #267):** menú de Industrias en dos niveles (sector primario, secundario y terciario a la izquierda; capabilities de la industria señalada a la derecha); Capabilities con etiquetas de industria enlazadas y filtro por industria; nuevas industrias Public Sector y Multilateral & International Cooperation con `live: false` («Pronto»); capabilities por industria validadas por Jhohan.
+- **Home y Capabilities (#268, #269):** carrusel de We Make Growth Happen con 5 tarjetas a la vista (Talento Benká, Industrias, Capabilities, Careers, Trayectoria); franja «Se aplica en» con las industrias de cada capability en el menú.
+- **Fase 0 · Posicionamiento (#270, #271):** hero «The Catalyst for the Future» con píldora glass del ancho de «Catalyst» («Rigor estratégico, resultados que se miden.»), párrafo y CTAs ejecutivos; bloque «Nuestro enfoque» (4 fases, luz que las recorre, mapa de LATAM con destellos) después del carrusel; Noticias → «Perspectivas» (misma ruta /news); insignias de Jhohan; textos de tono.
 
-**R12 a R15 por construir desde cero:** las 4 sesiones paralelas (Education, Social Sector, Media & Telecommunications y Oil & Gas) se detuvieron al agotarse el límite de uso de la cuenta, no alcanzaron a subir nada y se cerraron el 6 nov 2026. Hay que relanzarlas desde el proyecto.
-- Usa las mismas instrucciones que funcionaron en R8 a R11:
-  - modelo de Agroindustria;
-  - solo dos líneas en archivos compartidos (`src/router/routes.tsx` y `src/data/industries-hub.ts`);
-  - cifras verificadas con fuente enlazada;
-  - fotos del equipo asignadas por sesión, sin repetir.
-- Fotos de equipo libres para asignar (rama `fotos-bws-ny2026`, carpeta `fotos/equipo-benka/`):
+**Plan vigente (ver `PLAN-DE-TRABAJO.md` en el proyecto):**
+- Fase 1 (montar el sitio como el prototipo) y Fase 0 (posicionamiento): hechas.
+- **Fase 2:** refinar página por página, empezando por las industrias (fuentes primarias, fotos, casos validados, diseño). Lo publicado fuera de Industrias es versión final.
+- Fase 3: Nova.
 
-| Industria | Fotos |
-|---|---|
-| Education | RDM-236 y RDM-246 |
-| Social Sector | RDM-68 y RDM-76 |
-| Media & Telecommunications | RDM-134 y RDM-182 |
-| Oil & Gas | RDM-80 y RDM-162 |
-
-- Para publicar:
-  1. Construye cada rama.
-  2. Toma capturas de escritorio y de iPhone 13.
-  3. Arma el HTML de aprobación por página.
-  4. Con la aprobación, integra en una rama `release/…`. Los conflictos en `src/router/routes.tsx` se resuelven conservando las líneas de ambas ramas; en `src/data/industries-hub.ts` hay que dejar una sola fila por industria.
-- Los carruseles «Otras industrias» leen `hubIndustries`: una industria aparece en vivo en cuanto su `live` es `true`.
-- Sugerencia: lanza de 2 en 2 para no agotar el límite de uso.
+**Cómo se trabaja ahora:**
+- **Consola única** «Proyecto Nova Benká Group»: https://claude.ai/artifact/PHU8Cjw4dTYnYDbV7N4y4U — Tablero · Arquitectura · Experiencia (Sitio en producción compilado de `main` + Mesa de aprobación). Reemplaza los HTML sueltos.
+- **Compilar sin npm local:** la rama `feature/consola-build` de benka-group tiene un flujo de GitHub Actions que compila (con `tsc -b`) la rama escrita en el archivo `BUILD_REF` y la guarda en `consola-dist` (si es `main`) o en `consola-preview-<rama>`, sin tocar `qa`, `main` ni Hostinger. Se cambia `BUILD_REF`, se hace push y se clona la rama de salida.
+- **Agentes en paralelo:** cada uno en su propia carpeta clonada y su rama desde `origin/main`; nunca en la carpeta compartida.
+- Conflictos al integrar industrias: en `routes.tsx` se conservan las líneas de ambas ramas; en `industries-hub.ts`, una sola fila por industria.
 
 **Specs:**
 - Aprobados: `SPEC-nova` (D1 a D13).
 - Borradores por aprobar: `SPEC-careers` y `SPEC-unit-sites`.
 - `SPEC-industries-rest` y `SPEC-platform`: estado parcial, según lo que ya salió a producción.
-- Están en producción sin spec: Oficinas, el botón Ingresar con la cápsula del menú y el Impacto glass del home. Hay que escribir o actualizar `SPEC-offices`, `SPEC-nav` y `SPEC-home`.
+- Están en producción sin spec: Oficinas, el botón Ingresar con la cápsula del menú y el Impacto glass del home. Hay que escribir `SPEC-offices`.
+- `SPEC-nav`, `SPEC-home`, `SPEC-news`, `SPEC-capabilities` y `SPEC-industries-rest` tienen una sección «Cambios del 6 nov 2026» con lo publicado de #266 a #273.
 
 ## 4. Nova
 - **Spec:** `benka-nova/SPEC-nova.md`. Las decisiones D12 (tres frentes en paralelo) y D13 (la intranet como canal) reemplazan a D10.
@@ -93,16 +85,17 @@ Escrito el 6 nov 2026 al cerrar la sesión de Claude `session_01WEQvrcMdnj1MpVZe
   - Más adelante, entregar una cuenta de servicio de Firestore como secreto.
 
 ## 5. Enlaces
-- Arquitectura v4 (diagrama interactivo, Nova, componentes y experiencia): https://claude.ai/artifact/6aL6zio6hzKbdnwhCoueRS
-- Tablero de estado SDD: https://claude.ai/artifact/L3tJTmvur8CC3H84zSDE3k
-- Aprobación de industrias (R7b a R11, ya publicadas): https://claude.ai/artifact/YZRThKAFYfxXTaN78qyFAz
-- Vista navegable del prototipo v3.7: https://claude.ai/artifact/HZfJpcmheqTCWVuEu19Vq4
+- **Consola del proyecto** (todo en uno): https://claude.ai/artifact/PHU8Cjw4dTYnYDbV7N4y4U
+- Prototipo v3.7 (referencia histórica): https://claude.ai/artifact/HZfJpcmheqTCWVuEu19Vq4
+- Figma con opciones de imagen IA para el home: «Benká · Imágenes IA para tarjetas del home».
 
 ## 6. Pendientes principales
-1. Construir, aprobar y publicar R12 a R15 (hay que empezar de cero).
-2. Comunicaciones debe abrir los enlaces de las cifras publicadas (se publicaron con fuente, para revisión posterior).
-3. Fotos: copia liviana de las fotos grupales RDM-684 a RDM-940 (P-20). Varias secciones de industria quedaron sin foto.
-4. Specs: `SPEC-offices`; actualizar `SPEC-nav` (Ingresar y cápsula) y `SPEC-home` (Impacto glass); aprobar `SPEC-careers` (R16) y `SPEC-unit-sites` (R17).
-5. Revisar el logo flotante (`floating-logo`) que se cruza con las fotos de Oficinas en el home.
-6. Cerrar los issues #190 a #194 en GitHub (la sesión no tuvo permiso).
-7. Actualizar el HTML de arquitectura y el tablero de estado con lo publicado el 6 nov.
+1. **Fase 2 · Industrias:** cambiar 6 cifras de prensa por la fuente primaria (El Tiempo, Portafolio, Forbes, DPL News); fotos (las de R12–R15 son retratos repetidos; faltan fotos de operación); casos por validar (Univalle P-05, Robótica P-07, caso de Media); Oil & Gas sin caso; expertos de Media y Oil & Gas (solo Jhohan y José).
+2. Comunicaciones debe abrir los enlaces de las cifras publicadas.
+3. Fotos: copia liviana de las grupales RDM-684 a RDM-940 (P-20).
+4. Specs: escribir `SPEC-offices`; aprobar `SPEC-careers` (R16) y `SPEC-unit-sites` (R17).
+5. Credenciales de Helena y José (para sus insignias) y cargo de José («Managing Partner» en la biografía y «Partner» en la tarjeta).
+6. Perspectivas: primer artículo de un socio.
+7. Revisar el logo flotante que se cruza con las fotos de Oficinas en el home.
+8. Cerrar los issues #190 a #194 en GitHub.
+9. Ramas de trabajo ya publicadas que se pueden borrar: `feature/nav-industrias-glass`, `feature/home-tarjetas-capabilities`, `feature/fase-0-posicionamiento`, `feature/r12-r13-education-social`, `feature/r14-r15-media-oil`, `release/r12-r15-industrias`, `consola-preview*`.

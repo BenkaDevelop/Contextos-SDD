@@ -48,3 +48,6 @@ Darle a benkagroup.co una sala de prensa al estilo BCG/McKinsey. Debe mostrar lo
 - Las notas externas abren en pestaña nueva con `rel="noopener"`.
 - /news sin desborde a 390 px; Lighthouse de accesibilidad ≥ 90.
 - El home no pierde ninguna sección aprobada.
+
+## Cambios del 6 nov 2026
+- **Perspectivas (#270, #271):** Noticias se llama «Perspectivas» en el menú, la página, las migas y el mosaico del home; misma ruta /news. Descripción: «Puntos de vista de nuestros socios, artículos, blogs de opinión, prensa, eventos y reportes.» Categoría para artículos de socios lista, sin artículos todavía. En los perfiles, la sección de prensa se llama «En los medios».

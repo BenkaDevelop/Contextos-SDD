@@ -63,3 +63,6 @@ src/components/header/*             → soporte de desplegable de 3 columnas y s
 ## Preguntas abiertas
 
 1. **P-29:** ¿Loyalty as a Service la lidera Media o Consulting?
+
+## Cambios del 6 nov 2026
+- **Industrias enlazadas (#266, #267):** las etiquetas de industria de cada tarjeta enlazan a las industrias publicadas; las demás sin enlace. Filtro «Industria» junto a los 4 grupos. Industrias nuevas en los datos: Public Sector y Multilateral & International Cooperation (con capabilities validadas por Jhohan).

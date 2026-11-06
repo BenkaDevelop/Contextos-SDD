@@ -51,3 +51,6 @@ Toda industria tiene: Hero (glass, pantalla completa) · bloque propio del secto
 1. ¿Se confirma el orden de P-30?
 2. ¿Expertos de cada industria (P-28)?
 3. ¿Casos: se publican cualitativos o se esperan las cifras validadas?
+
+## Cambios del 6 nov 2026
+- **R12 a R15 en producción (#272, #273):** Education, Social Sector, Media & Telecommunications y Oil & Gas, construidas por agentes con el modelo de R8–R11 y publicadas «como están» para refinarlas en la Fase 2. Pendientes en el TRASPASO §6.
