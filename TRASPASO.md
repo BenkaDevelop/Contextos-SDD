@@ -75,7 +75,8 @@ Escrito el 6 nov 2026 al cerrar la sesión de Claude `session_01WEQvrcMdnj1MpVZe
 - **Tareas programadas:**
   - «Nova · Salud de la arquitectura (lunes)»: `trig_01G9u1Noo2EsXumEMX8uSUHc`, lunes 6:41 hora de Bogotá.
   - «Nova · Resumen diario a socios»: `trig_01GFGPeDTsEztszpDPNKr5gA`, de lunes a viernes a las 16:38.
-  - **Pendiente:** a ninguna de las dos se le pudo agregar el conector de Microsoft 365 desde la sesión. Hay que agregarlo en claude.ai, en tareas programadas.
+  - **Conector:** las dos tienen Microsoft 365 desde el 6 nov 2026 (lo agregó Jhohan en claude.ai). Las sesiones no pueden agregar ni quitar conectores de una tarea: se hace en la tarea, en Edit › Advanced settings › Connectors.
+  - Estas tareas se crearon desde una sesión y no aparecen en la lista «Tuyos» de claude.ai/code/routines; se abren con el enlace directo `claude.ai/code/routines/<id>`.
 - **Red:** el entorno permite `benkagroup.co`. Los scripts de Node necesitan `NODE_USE_ENV_PROXY=1` (ya está en `npm run health`).
 - **Tareas de Jhohan para destrabar:**
   - Comprar los 4 dominios de las unidades.
