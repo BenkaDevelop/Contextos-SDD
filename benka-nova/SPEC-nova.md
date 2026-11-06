@@ -26,6 +26,8 @@ Nova es el agente comercial de Benká Group. Su trabajo es mantener viva la arqu
 | D9 | Calificación §7: arranca con encaje 40, intención 25, autoridad 20, momento 15; los socios revisan los primeros 30 leads y con eso se fija el umbral para HubSpot | 5 nov 2026 | Jhohan Axelrod |
 | D10 | **Nova se construye al final, cuando termine el desarrollo de todo el sitio** (R7b a R17). La spec se aprueba ahora; las historias se crean en GitHub al iniciar la construcción | 5 nov 2026 | Jhohan Axelrod |
 | D11 | §1, §4, §11 y §12 aprobados; las metas numéricas se fijan con el primer mes de operación | 5 nov 2026 | Jhohan Axelrod |
+| D12 | **Cambia D10.** Tres frentes en paralelo desde el 6 nov: sitio (frente principal), piloto de Nova sin permisos externos (base de conocimiento, formulario → lead, ruteo, resumen diario, salud de la arquitectura) y tareas de Jhohan para destrabar (dominios, apps de LinkedIn y Meta, HubSpot) | 6 nov 2026 | Jhohan Axelrod |
+| D13 | La intranet (SharePoint · Microsoft 365) entra como canal: Nova lee propuestas y casos, importa bases y publica reportes (NOVA-19) | 6 nov 2026 | Jhohan Axelrod |
 | D5 | Capa de leads mixta del §6 **aprobada**: Firestore como memoria de Nova, HubSpot como pipeline de socios, SharePoint para bases y reportes | 5 nov 2026 | Jhohan Axelrod |
 
 ## 3. Alcance
@@ -157,6 +159,7 @@ Nova es el agente comercial de Benká Group. Su trabajo es mantener viva la arqu
 | NOVA-12 | Como socio quiero borradores de mensajes en mi Outlook | 3 |
 | NOVA-13 | Como Comunicaciones quiero borradores de posts basados en lo que Nova escucha | 3 |
 | NOVA-16 | Como Jhohan quiero un panel con métricas del pipeline y de Nova | 3 |
+| NOVA-19 | Como equipo quiero que Nova lea la intranet (propuestas, casos, Kit de Marca) y publique allí sus reportes | 1 |
 
 ## 11. Criterios de aceptación generales
 - El 100% de los leads tiene evidencia y fuente.
