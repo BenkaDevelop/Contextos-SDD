@@ -1,6 +1,6 @@
 # SPEC · industries-rest (R8–R15) · Las otras 8 industrias
 
-Estado: **borrador 1 · por aprobar** (5 nov 2026) · Releases R8 a R15, una industria por release · Modelo: SPEC-industry-agro (R7a en producción) · Referencia de diseño: prototipo v3.7 (`src/pages/industry-detail/*`)
+Estado: **borrador 1** (5 nov 2026) · aprobación por página completa (decisión de Jhohan, 6 nov 2026) · **R8–R11 en producción el 6 nov 2026** (BenkaDevelop/benka-group#262 → qa, #263 → main) · R12–R15 en construcción en sesiones paralelas · Releases R8 a R15, una industria por release · Modelo: SPEC-industry-agro (R7a en producción) · Referencia de diseño: prototipo v3.7 (`src/pages/industry-detail/*`)
 
 ## 1. Objetivo
 Publicar las 8 industrias que faltan con el mismo nivel de Agroindustria, cada una con una estructura propia (un mundo por sector), y volver clicable su fila en el hub /industries.

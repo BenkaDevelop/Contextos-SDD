@@ -1,6 +1,6 @@
 # SPEC · industry-agro (R7) · Agroindustria y sus 5 eslabones
 
-Estado: **R7a en producción** (5 nov 2026 · PR BenkaDevelop/benka-group#244 → qa, release #245) · R7b (5 eslabones) pendiente · Release R7 · Referencia de diseño: prototipo v3.7 (rama `feature/site-v2-industrias-careers-ecosistema`, `src/pages/industry-detail/*`, `src/data/agro.ts`)
+Estado: **R7a en producción** (5 nov 2026 · PR BenkaDevelop/benka-group#244 → qa, release #245) · **R7b (5 eslabones) en producción el 6 nov 2026** (#262 → qa, #263 → main) · Release R7 · Referencia de diseño: prototipo v3.7 (rama `feature/site-v2-industrias-careers-ecosistema`, `src/pages/industry-detail/*`, `src/data/agro.ts`)
 
 ## 1. Objetivo
 Publicar la primera página de industria al estilo McKinsey/BCG. Debe servir de modelo para las otras 8 industrias (R8–R15):

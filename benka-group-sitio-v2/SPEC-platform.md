@@ -1,6 +1,6 @@
 # SPEC · platform (transversal) · SEO, analítica, 404, imágenes y fuentes
 
-Estado: **borrador 1 · por aprobar** (5 nov 2026) · Corre en paralelo: una historia por release · Pendientes de backlog P-31, P-33 a P-36
+Estado: **PL-1, PL-2, PL-4 y PL-5 en producción el 6 nov 2026** (#264 → qa, #265 → main) · PL-3 (GA4) y PL-6 (Typekit por dominio) pendientes · Corre en paralelo: una historia por release · Pendientes de backlog P-31, P-33 a P-36
 
 ## 1. Objetivo
 Que el sitio sea rápido, medible y encontrable, y que cada ruta profunda responda bien al recargar.
