@@ -43,22 +43,28 @@ Escrito el 6 nov 2026 al cerrar la sesión de Claude `session_01WEQvrcMdnj1MpVZe
 - **R8 a R11:** Consumer Packaged Goods, Retail, Financial Services y Digital (#262 y #263).
 - **Plataforma:** página 404, `.htaccess`, sitemap con 28 URL, títulos y descripciones por página, imágenes en WebP con el build de 233 a 75 MB (#264 y #265).
 
-**En construcción en sesiones paralelas** (cada una sube su rama y deja un resumen; ninguna abre PR):
+**R12 a R15 por construir desde cero:** las 4 sesiones paralelas (Education, Social Sector, Media & Telecommunications y Oil & Gas) se detuvieron al agotarse el límite de uso de la cuenta, no alcanzaron a subir nada y se cerraron el 6 nov 2026. Hay que relanzarlas desde el proyecto.
+- Usa las mismas instrucciones que funcionaron en R8 a R11:
+  - modelo de Agroindustria;
+  - solo dos líneas en archivos compartidos (`src/router/routes.tsx` y `src/data/industries-hub.ts`);
+  - cifras verificadas con fuente enlazada;
+  - fotos del equipo asignadas por sesión, sin repetir.
+- Fotos de equipo libres para asignar (rama `fotos-bws-ny2026`, carpeta `fotos/equipo-benka/`):
 
-| Release | Sesión | Rama |
-|---|---|---|
-| R12 Education | `session_01WEQvrbhiVLyRYDydVN3whG` | `feature/r12-education` |
-| R13 Social Sector | `session_01WEQvrb1QqZ8B75qJbeaLYm` | `feature/r13-social-sector` |
-| R14 Media & Telecommunications | `session_01WEQvreWdaK4vXfLAMRUgDQ` | `feature/r14-media-telecommunications` |
-| R15 Oil & Gas | `session_01WEQvrdBMBo3ix1dvyuMZGd` | `feature/r15-oil-gas` |
+| Industria | Fotos |
+|---|---|
+| Education | RDM-236 y RDM-246 |
+| Social Sector | RDM-68 y RDM-76 |
+| Media & Telecommunications | RDM-134 y RDM-182 |
+| Oil & Gas | RDM-80 y RDM-162 |
 
-- Revisa cada sesión con `get_session` o `list_events` y cada rama con `git ls-remote`.
 - Para publicar:
   1. Construye cada rama.
   2. Toma capturas de escritorio y de iPhone 13.
-  3. Arma el HTML de aprobación.
-  4. Con la aprobación, integra en una rama `release/…`. Los conflictos en `src/router/routes.tsx` y en `src/data/industries-hub.ts` se resuelven conservando las líneas de ambas ramas; en `industries-hub.ts` hay que quitar las filas duplicadas.
-- Los carruseles «Otras industrias» leen `hubIndustries`, así que una industria aparece como en vivo en cuanto su `live` es `true`.
+  3. Arma el HTML de aprobación por página.
+  4. Con la aprobación, integra en una rama `release/…`. Los conflictos en `src/router/routes.tsx` se resuelven conservando las líneas de ambas ramas; en `src/data/industries-hub.ts` hay que dejar una sola fila por industria.
+- Los carruseles «Otras industrias» leen `hubIndustries`: una industria aparece en vivo en cuanto su `live` es `true`.
+- Sugerencia: lanza de 2 en 2 para no agotar el límite de uso.
 
 **Specs:**
 - Aprobados: `SPEC-nova` (D1 a D13).
@@ -93,7 +99,7 @@ Escrito el 6 nov 2026 al cerrar la sesión de Claude `session_01WEQvrcMdnj1MpVZe
 - Vista navegable del prototipo v3.7: https://claude.ai/artifact/HZfJpcmheqTCWVuEu19Vq4
 
 ## 6. Pendientes principales
-1. Aprobar y publicar R12 a R15 cuando sus sesiones terminen.
+1. Construir, aprobar y publicar R12 a R15 (hay que empezar de cero).
 2. Comunicaciones debe abrir los enlaces de las cifras publicadas (se publicaron con fuente, para revisión posterior).
 3. Fotos: copia liviana de las fotos grupales RDM-684 a RDM-940 (P-20). Varias secciones de industria quedaron sin foto.
 4. Specs: `SPEC-offices`; actualizar `SPEC-nav` (Ingresar y cápsula) y `SPEC-home` (Impacto glass); aprobar `SPEC-careers` (R16) y `SPEC-unit-sites` (R17).
